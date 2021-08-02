@@ -4,9 +4,10 @@
 
 (define str "helloworld")
 (define i 5)
+(define str-length (string-length str))
 
 (cond
-  [(< i (string-length str)) (string-append (substring str 0 i)
-                                            "_"
-                                            (substring str i))]
-  [(>= i (string-length str)) str])
+  [(< i str-length) (string-append (substring str 0 i)
+                                   "_"
+                                   (substring str i))]
+  [(>= i str-length) str])
