@@ -5,6 +5,8 @@
 (define str "helloworld")
 (define i 5)
 
-(string-append (substring str 0 i)
-               "_"
-	       (substring str i))
+(cond
+  [(< i (string-length str)) (string-append (substring str 0 i)
+                                            "_"
+                                            (substring str i))]
+  [(>= i (string-length str)) str])
