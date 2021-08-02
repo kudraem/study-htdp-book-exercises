@@ -3,9 +3,10 @@
 #reader(lib "htdp-beginner-reader.ss" "lang")((modname solution) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
 
 (define str "helloworld")
-(define i 10)
+(define i 5)
+(define str-length (string-length str))
 
 (cond
-  [(< i (string-length str)) (string-append (substring str 0 i)
-                                            (substring str (add1 i)))]
-  [(>= i (string-length str)) str])
+  [(< i str-length) (string-append (substring str 0 i)
+                                   (substring str (add1 i)))]
+  [(>= i str-length) str])
