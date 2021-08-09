@@ -15,6 +15,8 @@
     * [Exercise 8](https://github.com/kudraem/study-htdp-book-exercises/tree/master/i-fixed-size-data/exercise-8)
     * [Exercise 9](https://github.com/kudraem/study-htdp-book-exercises/tree/master/i-fixed-size-data/exercise-9)
     * Exercise 10 - nominal exercise
+    * [Exercise 11](https://github.com/kudraem/study-htdp-book-exercises/tree/master/i-fixed-size-data/exercise-11)
+ 
 * Intermezzo 1: Beginning Student Language
 * II. Arbitrarily Large Data
 * Intermezzo 2: Quote, Unquote
